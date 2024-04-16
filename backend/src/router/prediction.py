@@ -1,6 +1,4 @@
 from fastapi import APIRouter, File, UploadFile
-from fastapi.responses import FileResponse
-import numpy as np
 import pandas as pd
 from MLmodels import holtsWinterModel
 
